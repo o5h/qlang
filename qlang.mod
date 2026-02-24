@@ -3,7 +3,6 @@ qlang 0.0.1
 
 
 target(
-    enabled = true
     toolchain = ucrt64
     toolchain_root = C:/msys64/ucrt64
     arch   = amd64
@@ -13,7 +12,6 @@ target(
 )
 
 target(
-    enabled = false
     toolchain = msvc
     toolchain_root = C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120
     arch   = amd64
