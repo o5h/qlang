@@ -11,11 +11,11 @@ target(
     cflags = -g -O2
 )
 
-target(
-    toolchain = msvc
-    toolchain_root = C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120
-    arch   = amd64
-    os     = windows
-    cc     = cl
-    cflags = /Zi /O2
-)
+#target(
+#    toolchain = msvc
+#    toolchain_root = C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120
+#    arch   = amd64
+#    os     = windows
+#    cc     = cl
+#    cflags = /Zi /O2
+#)
