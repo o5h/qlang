@@ -1,7 +1,6 @@
 package qlang::core
 
 ```H
-#include <stddef.h>
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdlib.h>
