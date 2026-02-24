@@ -7,19 +7,19 @@ package qlang::log
 ```
 
 func info(message *char){
-    printf("INFO %s",message)
+    c::printf("INFO %s",message)
 }
 
 func debug(message *char){
-    printf("DEBUG %s",message)
+    c::printf("DEBUG %s",message)
 }
 
 func warn(message *char){
-    printf("WARN %s",message)
+    c::printf("WARN %s",message)
 }
 
 func error(message *char){
-    printf("ERROR %s",message)
+    c::printf("ERROR %s",message)
 }
 
 func level() int {
