@@ -1,27 +1,12 @@
 package qlang::log
 
+#import qlang::fmt@github.com/o5h/qlang
+import qlang::fmt
 
-```C
-#include <stdio.h>
-#include <stdlib.h>
-```
-
-func info(message *char){
-    c::printf("INFO %s",message)
+func print(message *char)  {     
+    fmt::print(message)   
 }
 
-func debug(message *char){
-    c::printf("DEBUG %s",message)
-}
-
-func warn(message *char){
-    c::printf("WARN %s",message)
-}
-
-func error(message *char){
-    c::printf("ERROR %s",message)
-}
-
-func level() int {
-    return 1
+func println(message *char){     
+    fmt::println(message) 
 }

@@ -1,5 +1,9 @@
 package qlang::fmt
 
-func print_hello() {
-    c::printf("Core module \n")
+func print(msg string ) {
+    c::printf("%s", msg)
+}
+
+func println(msg string ) {
+    c::printf("%s\n", msg)
 }
