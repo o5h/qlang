@@ -8,7 +8,7 @@ type Array<T> struct {
 }
 
 func newArray<T>(len int) *Array<T> {
-    arr := &Array<T>{}
+    arr := new(Array<T>)
     arr.data = new([len]T)
     arr.len = len
     arr.cap = len
