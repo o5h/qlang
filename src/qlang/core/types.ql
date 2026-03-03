@@ -22,3 +22,5 @@ type uintptr c::uintptr_t
 
 type rune c::int32_t
 type string *c::char
+
+
